@@ -1,12 +1,17 @@
 <div ng-show="show" class="menu">
-        <div class="icon-close" ng-click="show = !show">
-            <img src="https://www.pledgesports.org/wp-content/themes/pledge_v2.3/img/close.png" style="width:50px;height:34px;"/>
-        </div>
-          <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Help</a></li>
-        <li><a href="#">Contact</a></li>
-          </ul>
+    <div class="icon-close" ng-click="show = !show"><a ui-serf="home"></a>
+        <img src="https://www.pledgesports.org/wp-content/themes/pledge_v2.3/img/close.png" style="width:50px;height:34px;"/>
+</div>
+    
+<ul>
+    <li><a ui-sref="about" ng-click="show = !show" text-red>About</a></li>
         
+    <li><a ui-sref="blog" ng-click="show = !show" text-red>Blog</a></li>
+        
+    <li><a ui-sref="help" ng-click="show = !show" text-red>Help</a></li>
+        
+    <li><a ui-sref="contact" ng-click="show = !show" text-red>Contact</a></li>
+    
+    </ul>
+
 </div>
