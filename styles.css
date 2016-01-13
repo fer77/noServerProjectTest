@@ -59,15 +59,16 @@ body {
 }
 
 .icon-menu {
-  color: #fff;
-  cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-top: 25px;
-  text-decoration: none;
-  text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 70px;
 }
 
 .icon-menu i {
